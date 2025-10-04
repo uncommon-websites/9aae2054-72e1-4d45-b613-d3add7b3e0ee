@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	centered={false}
+	title="Direct access to Asia's fashion future"
+	subtitle="Pre-vetted manufacturers from Seoul, Tokyo, and Shanghai. No middlemen, no friction, no compromise."
+	imageSrc="/generated/image-a-fashion-buyer-examines-a-selection-of-.webp"
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by leading fashion retailers"
+	logoUrls={[
+		'https://cdn.brandfetch.io/urbanoutfitters.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/revolve.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/anthropologie.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/nordstrom.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
