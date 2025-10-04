@@ -83,5 +83,22 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Start sourcing smarter"
+	subtitle="Join today"
+	description="Pre-vetted manufacturers. Guaranteed delivery windows. Escrow payment protection. Everything you need to source with confidence—without the middleman markup."
+	imageSrc="/generated/image-a-fashion-buyer-stands-smiling-confident.webp"
+	callsToAction={[
+		{
+			href: "/get-started",
+			label: "Browse suppliers",
+			variant: "primary"
+		},
+		{
+			href: "/contact",
+			label: "Book a demo",
+			variant: "secondary"
+		}
+	]}
+/>
